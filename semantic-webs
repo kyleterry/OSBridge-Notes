@@ -1,0 +1,34 @@
+json fails:
+ - naming of keys is the only semantic channel available
+ - links aren't first-class representations
+
+rdf:
+ - specifies a resource (with a URI)
+ - describes it with subject-verb-object triples (e.g. [PSU, is a, university])
+ - triple stores sit on top of regular dbs
+
+RDFa:
+ - <label about="..." adds the about attr to describe semantic
+
+quad store:
+ - adds "where the data came from" to the rdf triples
+
+RDF Schemas:
+ - subclassing, subpropertying
+ - more like sets
+
+ontologies:
+ - describes relationships between classes more than instances
+ - off-the-shelf ontologies can be downloaded  http://richard.cyganiak.de/2007/10/lod
+ - linkeddata.org
+
+dublin core metadata
+foaf (friend of a friend)
+instances for "topics":
+ - dbpedia (semantic wikipedia)
+ - data.nytimes
+ - id.loc.gov
+ - freebase.com
+
+schema.org: a collaboration of search engine giants to get semantic
+  data added to our web sites to make searches more sophisticated.

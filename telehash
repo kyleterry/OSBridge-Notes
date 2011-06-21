@@ -1,0 +1,12 @@
+lockerproject: connects to web data services and pulls it all together
+telehash: distributed connection discovery
+singly: secure hosting for lockers
+
+locker will get all your data.  woo.  then, you can share it with
+people over any service you write an app for, but in particular, you
+can just be a telehash node with it and verify rsa keys of incoming
+connections (are they really your friends?) and then replace diaspora.
+
+action: 
+ - write connectors to your favorite data
+ - write apps to do interesting things with your data
