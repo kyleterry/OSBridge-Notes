@@ -1,0 +1,133 @@
+Building Awesome Products
+jeremy@zurb.com
+
+you hear about Google, 20% time, killing it financially, but you talk to the folks there and it's not actually going that well. 
+
+Zurb Overview
+- 14 people on the team
+- everybody can do different things, writing code, visual design, writing
+- based in Campbell, CA
+- been around for 13 years, since 1995
+- rails-based
+- rapid prototyping
+- just released FlickrBomb
+
+
+eBay Horror Story
+- working with "Gleebay", to come up with a product name, targeting middle- and high-school students
+- tested with kids, came up with Bid Ninja
+- corporate heirarchy, came back with BargainXeno
+- #facepalm
+
+Design for People
+Shared vision
+Details, details, details
+
+A lot of companies are a top-down tree
+David Grey, does visual explainations, cool graph of 
+Companies are messy, clustered and organic
+At the end of the day, it's a value exchange between businesses and individuals
+On one hand, Heirarchies for Individuals, on the other (vs.), Design for People
+
+1. Desire to Explore
+- drudge report
+2. Enlightened Trial & Error
+3. Teamwork & Engagement
+- talk to folks at google, they 
+4. Trading and Exchanging
+- pixar, great documentary, steve jobs talks about how they designed one big building to bring under one roof, enable "unplanned collaboration"
+
+humans are social animals
+we're very emotional, in spite of our big analytical brain
+emotion is the first form of human communication
+we learn as adults to mask our emotions
+
+Edison, story of lightbulb: on an expedition, looking for a solar eclipse, his fishing line caught in the fire, stretched while glowing, and ding he had the idea.  LIE!
+truth: it had already been invented, he dumped $40,000, 6,000 materials, had a huge team of people, and a number of partners
+
+Jeff Hawkins, from Palm and Handspring, he started with a block of wood.  "I walked around answering phone calls with this block of wood and of course it didn't do anything.  I did it to see if it worked.  I decided it worked pretty well."
+
+They do a 24 hour event once a year rally for a charity
+
+
+Their design process
+--------------------
+Bryan, founder of Zurg, had an idea, how do you bring the idea to the team.  could go top down.  he says no, enroll, get people stoked.  polled the team for choices on names.  came up with the word "Verify".  
+visual explainations of how it fits in to the market, "testing, ... verify"
+eat our own dog food
+high-level flow "write, run, verify"
+
+week 1, sketches
+month 1, prototype
+month 2, test ideas
+month 2, iterate
+month 3, private release
+month 3, feedback
+month 4, launch
+
+everybody sketches!  tips for doing it:
+
+multiples sketches -> no ego bruise
+fast -> in a flow
+cheap -> easier to repeat
+disposable -> just a spark
+opportunity -> 'wow' moments
+
+80 sketches in two hours -- "I will not eat that doughnut until I do 80 sketches"
+
+some think you need a "ux" guy on their team -- why isn't everyone concerned about 
+
+contest to build tallest standing structure with tape, spaghetti and marshmellows
+MBAs suck at this, kindergarteners and architects kick ass
+kindergarteners don't compete, they collaborate, no ego, just trying to solve a problem
+
+teamwork is very organic, don't like doing things that add heirarchy
+UX design does not exist, it's about the details
+
+
+
+Prototyping
+-----------
+Frong-end code right after sketches
+Ready, Run, Report
+Built every front-end page really quickly
+No photoshop files
+No requirements documents
+No laboring over tyeography
+No time on icons, just scan and bring them in
+Two weeks, straight to prototype
+
+
+Demitri, presents opportunity to present at Demo 2010, Palm Springs
+First functional build in time of Palm Springs
+Generated excitement, signups, then....
+details, details details
+switch mode to iterative prototyping
+iterative design details, for example they switched to list based, huge improvement in usability
+users prefer sketches
+feedback, learn two things quickly:
+1. tests are not easy to take
+2. people are not upgrading
+3. host a lot of events, while they're there, get feedback on apps
+
+launch!  already had paying customers when they 
+took the motivation of the team to 
+
+
+"Bill Buxton", designer speaker talks about:
+Designing for People, Henry Dryfus, 1952, founder of concept of ergonomics, designed locomotive, hoover vacuum cleaner, telephone
+
+
+
+myth of Steve Jobs: ideas spring from his head, we forget about the cube, we forget about all the failures.  hockey puck mouse.  lots of ipods, different designs.  during launches, steve would hide in the bushes, watch people interact with the products.  it's not devine inspiration, he worked hard to understand what people want 
+
+
+synthesis:
+
+1. desire to explore
+2. enlightened trial and error 
+3. teamwork and engagement
+
+1. design for people
+2. shared vision
+3. details, details details
