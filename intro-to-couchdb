@@ -1,0 +1,21 @@
+Why?
+	Robust storage engine
+	Lightweight runtime
+	Peer-based replication
+	GeoSpatial index
+	HTML5 application server
+
+"Ground Computing"
+
+Benefits
+	Speed and low lat
+	Ease of development
+	The web beyond HTML5
+		wut?
+	Awesome replication API
+You just post JSON. Couch doubles as a web service.
+
+Users
+	Dimagi
+	RapidFTR
+	Novacut
