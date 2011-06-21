@@ -19,3 +19,14 @@ Users
 	Dimagi
 	RapidFTR
 	Novacut
+
+civicapi.com
+membase
+	based on memcached
+couchbase
+
+API
+	All over REST
+	Map reduce
+Ubuntu has CouchDB built in
+http://tinyurl.com/pdx-couch
