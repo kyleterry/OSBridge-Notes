@@ -1,0 +1,119 @@
+Eric Day
+http://oddments.org/
+
+* Queues
+** Usage
+*** Async (scaling)
+*** Resource Specialization
+**** processing
+**** * processing
+** Deployments
+*** Local
+*** Clustered
+**** only works well in Low latency
+*** Distributed
+**** works well in High latency
+** Chattiness
+*** request/response
+**** pipelining
+** Broker vs Brokerless
+*** Centralized vs non-centralized
+** Security
+*** authorization
+*** users
+**** privledges
+***** read only
+***** write/read
+*** secure tunnels as a fallback
+** poll vs push
+*** hey do you have anything?
+*** hey this is ready!
+** batch processing
+*** pull down many at once (classification)
+*** AM could switch to that for the email system
+** Availablity
+*** languages
+*** data formats
+**** binary
+**** json
+**** xml
+** protocols
+*** AMQP
+*** PuSH
+*** Atom/RSS
+*** JSM (interface)
+*** XMPP
+*** REST
+**** SQS (AWS)
+*** Stomp ? 
+*** Custom
+** ZeroMQ
+*** Fast/Lightweight
+*** Concurrency Framework
+*** Brokerless
+*** Multiple Languages
+*** Simple, multicast, pub/sub
+** RabbitMQ
+*** AMQP
+*** Erlang
+*** Optional Persistence
+**** Amnesia
+*** Great clustering solution
+**** Durable
+*** Multiple languages (any AMQP library)
+*** Poll/Push
+*** SSL and Authentication
+** ActiveMQ
+*** AMQP, REST, JMS, XMPP, more
+*** Java
+*** Enterprisy
+*** Multiple persistence options
+*** Multiple languages (prococals + http)
+*** Poll or Push depending on protocol
+*** SSL and Authentication
+** Gearman
+*** Fast and Lightweight
+*** C, Java, Perl servers
+*** Multiple persistence options for C server
+**** SQL, MySQL, PostgreSQL, Tokoyo cab
+***** Multiple durability levels (as well as speed)
+*** Multiple languages
+*** Poll with instant notifications
+**** Faster network workers win
+*** No security, assumes trust
+*** No SPoF configurations
+*** like memcached protocol
+*** loose ordering
+*** Batch processes (kinda)
+** BeanstalkD
+*** C server
+*** optional persistence
+*** multiple languages
+*** control state of messages (bury, ready, timer)
+*** push poll
+*** no security (trust)
+*** no SPoF configuring
+** Redis
+*** Fast, simple pub/sub
+*** C server
+*** Redis protocol
+*** multiple languages
+*** some durability (usual redis options)
+*** resque - ruby frontend
+** Kestrl
+*** Scala
+*** MemcacheD protocol
+*** Loose ordering for horizontal scale out
+*** persistent (memory + journal)
+*** Used at Twitter
+*** Based on Starling (Ruby version)
+** Honorable Mentions
+*** SQS SNS (not OSS)
+*** Azure Service Bus (Not OSS)
+*** StormMQ (AMQP clients OSS, not server)
+*** Scribe
+*** Kafka
+**** LinkedIn
+*** Flume
+
+Hazelcast ?
