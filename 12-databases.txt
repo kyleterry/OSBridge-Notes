@@ -1,0 +1,81 @@
+Who is this Guy?
+- Writing book, 7 databases in 7 weeks
+- Rails developer, before it was coole
+- Eric Redmond
+- @inviite
+
+Complex Data
+- "Complexity is a symptom of confusion, not a cause."  Jeff Hawkins (of Palm Pilot fame)
+- if you model it right, it's usually quite simple
+
+Terms
+- Database - a ssytem intended to organize, store and retrieve larg amounts of data easily
+- SQL - Not NoSQL
+- NoSQL - Linear Scalability (business decision: do we expect this data model to evolve regularly over time), Ability to be Distributed, Low latency
+- ACID - Atomic, Consistent, Isolated, Durable
+- BASE - Basically Available, Soft state, Eventual consistency
+- CAP Theorem - Brewer's Conjecture ad th Feasibility of Consistent, Available, Partition Tolerant Web Servers
+    - it's a "fact", like gravity
+    - lot in it, but key:  "it's impossible to reliably provide atomic, consistent data when there are partitions in the network.  but you can pick two."
+    - 1. Consistincy
+        - strong vs weak, what is "correct" consistency?  know what kind of consistency you need for the problem, and then go after that.  great example is DNS, no immediate propogation to the whole networ.  imagine if DNS was atomic.
+    - 2. Availability
+    - 3. Partition Tolerence
+    - story about being stuck on an island, boat drives by and asks how many studio albums beyonce has -- do you answer, when you know you could be wrong, or do you be not be unavailable.  you can't have both when you're partitioned off
+
+Common Patterns:
+----------------
+- Replication
+- N/R/W - Amazon wrote a paper called Dynnamo, CAPS is massagable.  for certain times, you want high consistency or availability.
+- Mapreduce - map function maps from one array to another, reduce iterates through the values, and takes some action on them
+    - map reduce is important because it's you can run it across multiple systems, distributed.  it's far cheaper to send your algorithm to your data, then to pull your data to your algorithm.
+
+
+Our Fine Selection of Dtabases
+- Relational
+    - Postgresql
+    - MySQL
+    - Drizzle
+    - 9 times out of 10, all you need is relational.  relational databases are queriable, couch you're going to be writing map reduce "up the wazoo"
+    - check out postgresql, full featured, crazy stuff like Trigram analysis, Metaphone analysis, give me a holidy that sounds like "kristmus"
+    - To the ORM-obsessed, look at this query.  how could this be any clearer using an ORM?</soapbox>
+- Bigtable/Columnar Style
+    - HBase - Google Big Table, born on top of Hadoop (Java mapreduce engine)
+    - Cassandra - Node architecture like dynamo, data structure like BigTable
+    - big players are switching from Cassandra to HBase, check out "google hbase facebook datacenter"
+    - easiest wiki in the world
+- Document Datastore
+    - MongoDB
+    - CouchDB
+
+    - both created for wildly different reasons, slowly over time converged in features
+    - Mongo, made to be distributed, huge, m2m, came from a world where they needed to do ad-hoc queries, not build to be durable at all.  not saying it's going to fail, but, well, you failed.
+    - Couch was not made to be distributed.  it's durable, ok in single server mode.  mobile devices, bunch of them, want to sync up with each other, m2m replication.
+        - restful
+        - nice web interface futon
+    - both are JSON-ish, "documents"
+        - schemas are awesome until they aren't
+        - allows data of new structure to be added, without changing all the other ones
+
+- Riak - "Architecturally coolest database out there"
+    - Pretty "documenty"
+    - http://wiki.basho.com
+    "Quorum consistency blows my mind"
+
+- Key Value Stores
+    - memcached - don't want
+    - kyoto - don't want
+    - redis - kicks ass
+        - knows lists
+        - knows hashes
+        - knows sets
+        - 
+- Graph Data Stores
+    - FlockDB -- twitter's graph implementation, no node traversal
+    - no mention of RDF?
+    - Sites
+
+- Sites
+    nosql-database.org
+    http://github.com/coderoshi/holy-grail-dbs
+    sevenweeks.org
