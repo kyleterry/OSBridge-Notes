@@ -1,0 +1,14 @@
+email isn't aggregating things, email is sending it out to way more people than needed.
+
+rsyslog is grepable, but not very powerful
+
+flume is interesting but complicated
+
+hadoop is complicated
+
+firetower.git:
+ - uses redis
+ - levenshtein distance to group errors, with user-set threshold
+ - use regex instead?  use bayesian filters?
+
+idealist does it different
