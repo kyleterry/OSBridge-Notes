@@ -1,0 +1,57 @@
+Jared Boone
+
+basics of radio communication
+how amazing is radio technology, word
+demonstrate open-source software thingys
+
+owner of ShareBrained
+
+radio is everywhere (GSM, bluetooth, tirepressure, monitors, rfid)
+
+the point:
+    information transfer
+
+antennas work line transformers (kinda)
+
+- source of noise
+    - multi-path interference
+    - the sun
+    - wiggly electrons
+
+- modulation
+    kind of data
+    how far
+    how reliable
+
+spread spectrum
+frequency hopping
+
+- components
+    - antennas
+        - vertical, whip, dipole
+    - mixers
+    - filters
+    - amplifiers
+
+Radios are becoming digital
+
+why digital
+- everthing else is
+- digital enables software... awesome
+- digital can do things analog can't
+
+hardware (open source)
+    - USRP (https://ettus.com/product) - expensive - analog to digital converter
+    - FUNcube Dongle (http://FUNcubedongle.com)
+    - RTL-SDR
+    - OsmoSDR (sdr.osmocom.org)
+    - Homemade GPS Receiver
+    - HackRF - https://github.com/sharebrained
+
+software
+    - GNURadio (http://gnuradio.org)
+    gr-air-modes
+
+    airframes.org
+
+    get things from satellites!
