@@ -1,0 +1,57 @@
+- Google maps API is 7 years old.
+    - was $4 per 1000 views now $0.50 per 1000.
+    - will start doing advertising on the maps.
+    - google owns your ass.
+
+- Open map APIs
+    -OpenLayers
+        - can use google maps tiles
+        - mature, been around for a while
+        - kind of bloated
+    -Leaflet
+        - new
+        - lots of committers
+        - can use google maps tiles
+    -Modest Maps
+        - compact
+    -Polymaps
+        - does not use tiles
+
+- tile tech
+    - zoom level 0 is 1 tiles
+    - zoom level 16 over 4 billion tiles
+
+- tile alternatives
+    - opengl
+    - google maps gl
+    - polymaps svg
+    - geoJSON draws geography
+    - renders in the browser instead of using tiles images
+    - bad for satellite images
+
+- map servers
+    - mapquest open server(open street map)
+    - use someone elses map server
+    - commercial map servers
+    - your own server
+    http://developer.mapquest.com/web/products/open/map
+    OpenStreetMaps
+
+- Map Data
+    - cloudmade map studio for changing styling
+        - made leaflet API
+    - mapbox
+        - add data sources
+        - based on mapnik
+        - will host tiles
+        - dynamic map modification on the fly
+
+OSM got data from US Census TIGER
+Natural Earth
+
+caching proxy to prevent large bandwidth use from map tile hosters
+
+http://rtp.trimet.org
+developing their own map
+
+Stamen map
