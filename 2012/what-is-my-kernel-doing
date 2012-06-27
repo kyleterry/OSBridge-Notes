@@ -1,0 +1,11 @@
+Randy Appleton
+
+libc is half of all file opens
+
+haiyong xie
+
+apache is mostly string handling
+
+8k of cache on cpu is good enough... if your workload is apache
+
+http://opensourcebridge.org/sessions/871
