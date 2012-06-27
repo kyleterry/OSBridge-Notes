@@ -1,0 +1,34 @@
+How to encrypt content using priv.ly
+Http://priv.ly
+
+Threats:
+    - Apathy
+    - Incompetence
+    - Governments
+    - Guy sitting next to you
+    - Extortion
+
+Solutions:
+- Not participating in modern web
+- Participate but point people to your own content
+- Manually encrypt data
+- priv.ly
+
+Priv.ly:
+    - Privacy solution
+    - Browser extension
+    - General solution to privacy on net
+    - Kickstartered in 2012
+    - Working prototypes for firefox chrome
+    - Lot more work to do
+    - Could help get around licensing woes
+    - Shares a link that is pulled into an iframe
+    - looking to implement one-time-pad encryption
+    - central server will soon (maybe) only have cypher text
+
+Challenges:
+    - Having storage control and knowing when something is accessed
+    - Peer-to-peer network
+    - Usability
+    - Key distribution
+    - Making it mainstream 
