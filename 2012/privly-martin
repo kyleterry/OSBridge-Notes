@@ -1,0 +1,9 @@
+they don't have encryption yet.
+
+js encryption doesn't offer guaranteed entropy; the user agent is as far as js can verify.
+
+extension just looks for priv.ly links and replaces with the retrieved content.
+
+super alpha.
+
+0bin <- browser-encrypted paste bin
