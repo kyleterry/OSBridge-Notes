@@ -1,0 +1,20 @@
+OSL at OSU
+
+know your infrastructure as a developer
+    know where the app is
+    how much resource, disk, bandwidth
+    is it a package?
+    maintaining the app
+    how do people get it? (as a dev you know know if it's apache/nginx/blah)
+    can your app scale
+    CDNS
+    what libs and tools are available
+
+Jenkins-CI for puppet in the ops side of things
+set exire headers on static media
+
+DO NOT CHANGE THE FRAMEWORK CORE
+
+cuccumber
+
+Database servers are horrible on VMs. Best on hardware
