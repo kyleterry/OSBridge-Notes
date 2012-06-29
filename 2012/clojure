@@ -1,0 +1,10 @@
+building web apps with clojure
+https://github.com/sbecker/osbridge-clojure-blog
+
+Tools:
+    leiningen - for automating clojure projects
+    ring - framework?
+    noir - clojure web framework
+    hiccup - html generator
+    korma - sql "DSL" for clojure
+    midje - testing framework
